@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Selected items</title>
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <div class="block1">
+        <p>Top left
+            <input type="range" id="rtl" min="0" max="100"  value="0" oninput="fun1()">
+            <input type="text" id="ttl" value="0">
+            </p>
+        <p>Top right
+            <input type="range" min="0" max="100" step="1" id="rtr" name="" value="0" oninput="fun1()">
+            <input type="text" id="ttr" value="0">
+            </p>
+        <p>Bottom left
+            <input type="range" min="0" max="100" step="1" id="rbl" name="" value="0" oninput="fun1()">
+            <input type="text" id="tbl" name="" value="">
+            </p>
+        <p>Bottom right
+            <input type="range" min="0" max="100" step="1" id="rbr" name="" value="0" oninput="fun1()">
+            <input type="text" id="tbr" name="" value="">
+            </p>
+      </div>
+      <div id="block"></div>
+      <script src="script.js"></script>
+  </body>
+</html>

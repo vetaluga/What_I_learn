@@ -1,0 +1,23 @@
+#container{
+    width: 800px;
+    margin: 15px auto;
+    border: 5px solid black;
+    overflow: hidden;
+}
+
+#gallery{
+  width: 4000px;
+  position: relative;
+  left: 0;
+  transition: left 1.4s;
+}
+
+#gallery img {
+  float: left;
+}
+
+#gallery::after{
+  content: "";
+  display: block;
+  clear: both;
+}

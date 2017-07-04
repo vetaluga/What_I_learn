@@ -1,0 +1,22 @@
+body {
+  margin: 20px 40px;
+  background: #ccc;
+}
+
+#block{
+  width: 50px;
+  height: 40px;
+  background: gold;
+}
+
+#block p {
+  margin: 0 40%;
+  font-size: 30px;
+  color: red;
+}
+
+#test {
+  width: 50px;
+  height: 25px;
+  background: green;
+}
